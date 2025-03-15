@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <title>Document</title>
+</head>
+<body>
+  <section class="navContainer">
+    <a href="#"><img src="images/code.png" alt=""></a>
+    <nav>
+      <a class="navItem" href="#">Home</a>
+      <a class="navItem" href="#about">About us</a>
+      <a class="navItem" href="#projects">Projects</a>
+      <a class="navItem" href="#contact">Contact</a>
+      <button id="hamburger" onclick="handleShowMenu()">&#9776;</button>
+    </nav>
+  </section>
+  <div id="menu">
+    <a onclick="handleMenuItemClick()" class="menuItem" href="#">Home</a>
+    <a onclick="handleMenuItemClick()" class="menuItem" href="#about">About us</a>
+    <a onclick="handleMenuItemClick()" class="menuItem" href="#projects">Projects</a>
+    <a onclick="handleMenuItemClick()" class="menuItem" href="#contact">Contact</a>
+    <button onclick="handleCloseMenu()">x</button>
+  </div>
+  
+  <header>
+    <div>
+      <img src="images/diane1.jpg" alt="">
+      <div>
+        <h3>ISHIMWE Diane</h3>
+        <span>Project Manager</span>
+        <span>
+          <a href=""><img src="images/github.png" alt=""></a>
+          <a href=""><img src="images/linked-big-square-logo.png" alt=""></a>
+          <a href=""><img src="images/twitter.png" alt=""></a>
+        </span>
+      </div>
+    </div>
+    <div>
+      <img src="images/sandrine1.jpg" alt="">
+      <div>
+        <h3>ISHIMWE Sandrine</h3>
+        <span>UI/UX Designer</span>
+        <span>
+          <a href="https://github.com/ishimwesandrine" target="_blank"><img src="images/github.png" alt=""></a>
+          <a href=""><img src="images/linked-big-square-logo.png" alt=""></a>
+          <a href=""><img src="images/twitter.png" alt=""></a>
+        </span>
+      </div>
+    </div>
+    <div>
+      <img src="images/ben1.jpg" alt="">
+      <div>
+        <h3>ITANGA Benigne</h3>
+        <span>Front-End Developer</span>
+        <span>
+          <a target="_blank" href="https://github.com/Itanga1"><img src="images/github.png" alt=""></a>
+          <a target="_blank" href="https://www.linkedin.com/in/itanga-benigne-a44911235/"><img src="images/linked-big-square-logo.png" alt=""></a>
+          <a target="_blank" href="https://x.com/Mugikari123"><img src="images/twitter.png" alt=""></a>
+        </span>
+      </div>
+    </div>
+    <div>
+      <img src="images/djazili.jpg" alt="">
+      <div>
+        <h3>KAMANZI Djazili</h3>
+        <span>Backend-developer</span>
+        <span>
+          <a href=""><img src="images/github.png" alt=""></a>
+          <a href=""><img src="images/linked-big-square-logo.png" alt=""></a>
+          <a href=""><img src="images/twitter.png" alt=""></a>
+        </span>
+      </div>
+    </div>
+    <div>
+      <img src="images/pacifique1.jpg" alt="">
+      <div>
+        <h3>KUBWIMANA Pacifique</h3>
+        <span>Content Creator</span>
+        <span>
+          <a href=""><img src="images/github.png" alt=""></a>
+          <a href=""><img src="images/linked-big-square-logo.png" alt=""></a>
+          <a target="_blank" href="https://x.com/wallehP35615?t=L0HgEC_sOb7M0ZDidtN4OQ&s=08"><img src="images/twitter.png" alt=""></a>
+        </span>
+      </div>
+    </div>
+  </header>
+  <h1 id="about"><span>About Us</span></h1>
+  <section id="aboutContainer">
+    <div>
+      <img src="images/diane1.jpg" alt="">
+      <div>
+        <h3>ISHIMWE Diane</h3>
+        <h5>Project Manager</h5>
+        <p>
+          Skilled in Agile methodologies, cross-functional team leadership, and stakeholder communication. Passionate about driving innovation, optimizing processes, and delivering high-quality software solutions that align with business goals.
+        </p>
+        <h4>Skills</h4>
+        <ul>
+          <li>Agile & Scrum Methodologies</li>
+          <li>Risk Management</li>
+          <li>Team Leadership and Mentorship</li>
+          <li>Project Planning and Execution</li>
+        </ul>
+        <h3>3+ Years of Experience</h3>
+      </div>
+    </div>
+    <div>
+      <img src="images/sandrine1.jpg" alt="">
+      <div>
+        <h3>ISHIMWE Sandrine</h3>
+        <h5>UI/UX Designer</h5>
+        <p>
+          Proficient in user research, wireframing, prototyping, and interaction design. Dedicated to solving user problems through human-centered design principles and delivering seamless, user-friendly interfaces that enhance engagement and satisfaction.
+        </p>
+        <h4>Skills</h4>
+        <ul>
+          <li>Figma</li>
+          <li>Adobe Creative Suite (Photoshop, Illustrator, XD)</li>
+          <li>Sketch</li>
+          <li>InVision</li>
+        </ul>
+        <h3>6+ Years of Experience</h3>
+      </div>
+    </div>
+    <div>
+      <img src="images/ben1.jpg" alt="">
+      <div>
+        <h3>ITANGA Benigne</h3>
+        <h5>Front-End Developer</h5>
+        <p>
+          Skilled Front-End Developer with expertise in building responsive, high-performance web applications. Proficient in HTML, CSS, JavaScript and React. Passionate about creating clean, efficient code and delivering visually stunning, user-friendly interfaces. 
+        </p>
+        <h4>Skills</h4>
+        <ul>
+          <li>HTML</li>
+          <li>CSS</li>
+          <li>JavaScript</li>
+          <li>React JS</li>
+        </ul>
+        <h3>5+ Years of Experience</h3>
+      </div>
+    </div>
+    <div>
+      <img src="images/djazili.jpg" alt="">
+      <div>
+        <h3>KAMANZI Djazili</h3>
+        <h5>Backend-developer</h5>
+        <p>
+          Experienced Back-End Developer specializing in building robust, scalable, and secure server-side applications. Proficient in languages like Python, Java, and Node.js, with expertise in database management (SQL/NoSQL) and API development.
+        </p>
+        <h4>Skills:</h4>
+        <ul>
+          <li>Python (Django, Flask)</li>
+          <li>JavaScript (Node.js)</li>
+          <li>PHP (Laravel)</li>
+          <li>MySQL</li>
+        </ul>
+        <h3>3+ Years of Experience</h3>
+      </div>
+    </div>
+    <div>
+      <img src="images/pacifique1.jpg" alt="">
+      <div>
+        <h3>KUBWIMANA Pacifique</h3>
+        <h5>Content Creator</h5>
+        <p>
+          Skilled in writing, editing, and optimizing web copy, blogs, and multimedia content to drive traffic and enhance user experience. Dedicated to delivering high-quality, SEO-friendly content that aligns with brand voice and business goals.
+        </p>
+        <h4>Skills:</h4>
+        <ul>
+          <li>Content Management Systems (CMS)</li>
+          <li>SEO and Analytics</li>
+          <li>Copywriting</li>
+          <li>Monetization Strategies</li>
+        </ul>
+        <h3>10+ Years of Experience</h3>
+      </div>
+    </div>
+  </section>
+  <h1 id="projects"><span>Projects</span></h1>
+  <section id="projectsContainer">
+    <div>
+      <h2><span>01. </span>iBen Store</h2>
+      <button onclick="showProject('project1')">&#9660;</button>
+      <div id="project1">
+        <img src="images/Macbook-Air-ibenstore.vercel.app (1).png" alt="">
+        <a target="_blank" href="https://ibenstore.vercel.app/">Visit Site</a>
+      </div>
+    </div>
+    <div>
+      <h2><span>02. </span>iBen Portfolio</h2>
+      <button onclick="showProject('project2')">&#9660;</button>
+      <div id="project2">
+        <img src="images/Macbook-Air-ibenportfolio.vercel.app.png" alt="">
+        <a target="_blank" href="https://ibenportfolio.vercel.app/">Visit Site</a>
+      </div>
+    </div>
+    <div>
+      <h2><span>03. </span>Contact card</h2>
+      <button onclick="showProject('project3')">&#9660;</button>
+      <div id="project3">
+        <img src="images/Macbook-Air-itanga1.github.io.png" alt="">
+        <a target="_blank" href="https://itanga1.github.io/Contact/">Visit Site</a>
+      </div>
+    </div>
+    <div>
+      <h2><span>04. </span>Mammy Shop</h2>
+      <button onclick="showProject('project4')">&#9660;</button>
+      <div id="project4">
+        <img src="images/Macbook-Air-ishimwesandrine.github.io.png" alt="">
+        <a target="_blank" href="https://ishimwesandrine.github.io/ishimwesandy/">Visit Site</a>
+      </div>
+    </div>
+  </section>
+  <h1 id="contact"><span>Contact us</span></h1>
+  <section id="contactContainer">
+    <form action="">
+      <label>Your Full Name:</label>
+      <input type="text" placeholder="Full name" required>
+      <label>Your e-mail:</label>
+      <input type="email" placeholder="Email address" required>
+      <label>Phone Number:</label>
+      <input type="tel" placeholder="Phone number" required>
+      <label>Message:</label>
+      <textarea>Type something</textarea>
+      <button>Submit</button>
+    </form>
+  </section>
+  <footer>
+    <p><span>&copy; </span>  2025 All Rights Reserved.</p>
+  </footer>
+  <script src="index.js"></script>
+</body>
+</html>
