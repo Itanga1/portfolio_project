@@ -146,6 +146,7 @@ header > div div {
 header > div div h3 {
   color: dodgerblue;
   font-family: "Courier New", Courier, monospace;
+  text-align: center;
 }
 header > div div span {
   display: flex;
